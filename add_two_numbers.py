@@ -19,38 +19,43 @@ def exp_ten(x):
     return res
 
 
-def addTwoNumbers(l1, l2):
-    """
-    :type l1: ListNode
-    :type l2: ListNode
-    :rtype: ListNode
-    """
-    l1_list = []
-    l2_list = []
-    l1_num = l1
-    l2_num = l2
-    l1_val = 0
-    l2_val = 0
-    while l1_num is not None:
-        l1_list.append(l1_num.val)
-        l1_num = l1_num.next
-    for i in range(len(l1_list)):
-        l1_val += l1_list[i]*exp_ten(i)
+def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
+    output = ListNode((l1.val + l2.val) % 10)
+    l1_next = l1
+    l2_next = l2
+    prev_ln = output
 
-    while l2_num is not None:
-        l2_list.append(l2_num.val)
-        l2_num = l2_num.next
-    for i in range(len(l2_list)):
-        l2_val += l2_list[i]*exp_ten(i)
+    if l1.val + l2.val >= 10:
+        pre_addone = 1
+    else:
+        pre_addone = 0
 
-    res_sum = l1_val + l2_val
-    first_node = ListNode(int(res_sum%10))
-    prev_node = first_node
-    res_sum = (res_sum - (res_sum % 10))/10
-    while res_sum != 0:
-        curr_node = ListNode(int(res_sum%10))
-        prev_node.next = curr_node
-        res_sum = (res_sum - (res_sum % 10))/10
-        prev_node = curr_node
+    while l1_next.next is not None or l2_next.next is not None:
+        if l1_next.next is None:
+            l1_next_val = 0
+            l2_next = l2_next.next
+            l2_next_val = l2_next.val
 
-    return first_node
+        elif l2_next.next is None:
+            l2_next_val = 0
+            l1_next = l1_next.next
+            l1_next_val = l1_next.val
+
+        else:
+            l1_next_val, l2_next_val = l1_next.next.val, l2_next.next.val
+            l1_next, l2_next = l1_next.next, l2_next.next
+
+        curr_ln = ListNode((l1_next_val + l2_next_val + pre_addone) % 10)
+        prev_ln.next = curr_ln
+        prev_ln = curr_ln
+
+        if l1_next_val + l2_next_val + pre_addone >= 10:
+            pre_addone = 1
+        else:
+            pre_addone = 0
+
+    if pre_addone == 1:
+        curr_ln = ListNode(1)
+        prev_ln.next = curr_ln
+
+    return output

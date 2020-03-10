@@ -1,4 +1,7 @@
-def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
+from typing import List
+
+
+def findMedianSortedArrays_one(nums1: List[int], nums2: List[int]) -> float:
     """
     Brute force
 
@@ -14,7 +17,7 @@ def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
         return comb[int(length / 2)]
 
 
-def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
+def findMedianSortedArrays_two(nums1: List[int], nums2: List[int]) -> float:
     """
     Merge sort
 
@@ -43,7 +46,13 @@ def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
         return comb[int(length / 2)]
 
 
-def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
+def findMedianSortedArrays_three(nums1, nums2):
+    """
+    Binary search
+    Time: O(log(m+n))
+    Space: O(1)
+    """
+
     m = len(nums2)
     n = len(nums1)
     if (n + m) % 2 == 0:
@@ -52,26 +61,40 @@ def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
         return (find_k_smallest(nums1, 0, nums2, 0, left) + \
                 find_k_smallest(nums1, 0, nums2, 0, right)) / 2
     else:
-        return find_k_smallest(nums1, 0, nums2, 0, int((n + m) / 2))
+        return find_k_smallest(nums1, 0, nums2, 0, int((n + m) / 2) + 1)
+
 
 def find_k_smallest(nums1, start1, nums2, start2, k):
-    if k == 1:
-        return min(nums1[start1], nums2[start2])
-    # len1 = end1 - start1 + 1
-    # len2 = end2 - start2 + 1
-    len1 = len(nums1) - start1 - 1
-    len2 = len(nums2) - start2 - 1
 
+    # suppose A[k/2] < B[k/2] then A[0],...,A[k/2] < B[k/2]
+    # also B[0],...,B[k/2 - 1] < B[k/2], suppose B[0],...,B[k/2 - 1] < A[k/2] as well
+    # then the number of elements smaller than A[k/2] (at most): k/2 - 1 + k/2 - 1 = k - 2
+    # if B[0],...,B[k/2 - 1] < A[k/2] is not true, then the above number (k-2) can only decrease
+    # thus moving further away from the median
+    # anyway A[k/2] is at most the (k-1)th smallest number in the combined array
+    # so we can safely delete all the numbers before and include A[k/2] in A
+
+    len1 = len(nums1) - start1
+    len2 = len(nums2) - start2
+
+    # if one of the arrays reaches its end, return immediately
     if len1 == 0:
         return nums2[start2 + k - 1]
     elif len2 == 0:
         return nums1[start1 + k - 1]
 
+    # if none of the arrays reach the end, and k is reduced to 1
+    if k == 1:
+        return min(nums1[start1], nums2[start2])
+
+    # the new sub-arrays of (combined) length k to be checked
     nums1_stop = start1 + min(len1, int(k / 2)) - 1
     nums2_stop = start2 + min(len2, int(k / 2)) - 1
-    # nums1_stop = min(start1 + int(k/2), len1) - 1
-    # nums2_stop = min(start2 + int(k/2), len2) - 1
 
+    # every call will reduce the search space by k/2, so
+    # (m+n)/2 -> (m+n)/4 -> (m+n)/8 -> (m+n)/16 -> ...
+    # stop until k = 1 (or prematurely if one of the arrays reaches its end)
+    # therefore number of calls: log(m+n)
     if nums1[nums1_stop] < nums2[nums2_stop]:
         next_k = k - (nums1_stop - start1 + 1)
         start1 = nums1_stop + 1
@@ -81,7 +104,3 @@ def find_k_smallest(nums1, start1, nums2, start2, k):
         start2 = nums2_stop + 1
 
     return find_k_smallest(nums1, start1, nums2, start2, next_k)
-
-
-
-

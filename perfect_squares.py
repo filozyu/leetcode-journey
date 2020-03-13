@@ -1,4 +1,29 @@
+def numSquares_dp(n):
+    """
+    Dynamic programming (slow, time limit exceeded)
+    Time: O(n*sqrt(n))
+    Space: O(n)
+    """
+    from collections import defaultdict
+    dp = defaultdict(int)
+    # total time: int(sqrt(1)) + int(sqrt(2)) + ... + int(sqrt(n))
+    # there will be (i+1)^2 - i^2 = 2i-1 repeating numbers between sqrt((i+1)^2) and sqrt(i^2)
+    # The predominant term in the sum above is n*int(sqrt(n)), therefore O(n*sqrt(n))
+    for i in range(1, n+1):
+        # loop for n times
+        dp[i] = i
+        j = 1
+        while i - j ** 2 >= 0:
+            # loop for int(sqrt(i)) times, for every i
+            dp[i] = min(dp[i], dp[i - j ** 2] + 1)
+            j += 1
+    return dp[n]
+
+
 def numSquares(n):
+    """
+    Brute force recursion (slow, time limit exceeded)
+    """
     i = 2
     sq_list = []
     while i**2 <= n:
@@ -29,5 +54,3 @@ def sum_in_list(summ, l):
         if new_len < min_num:
             min_num = new_len
     return min_num
-
-print(numSquares(10))

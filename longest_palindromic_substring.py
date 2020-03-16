@@ -58,5 +58,42 @@ def longestPalindrome_dp(s: str) -> str:
     return s[max_idx[0] : max_idx[1] + 1]
 
 
-test_input = "abacbca"
-print(longestPalindrome_dp(test_input))
+def longestPalindrome_expand(s: str) -> str:
+    """
+    Expansion around centre (accepted, faster than dp)
+    Time: O(n^2)
+    Space: O(1)
+    """
+    if len(s) == 0:
+        return ""
+    max_len = 1
+    max_idx = (0, 0)
+    # loop for each centre, each expansion will take O(n), O(2n) expansions in total (odd and even)
+    for i in range(0, len(s) - 1):
+        # expansion for palindrome with odd length
+        odd_span = expand(s, i, i)
+        # expansion for palindrome with even length
+        even_span = expand(s, i, i + 1)
+        # Comparison
+        if odd_span[1] - odd_span[0] + 1 > max_len:
+            max_len = odd_span[1] - odd_span[0] + 1
+            max_idx = (odd_span[0], odd_span[1])
+        if even_span[1] - even_span[0] + 1 > max_len:
+            max_len = even_span[1] - even_span[0] + 1
+            max_idx = (even_span[0], even_span[1])
+
+    return s[max_idx[0] : max_idx[1] + 1]
+
+
+def expand(s, c_left, c_right):
+    i, j = c_left, c_right
+    while i >= 0 and j < len(s) and s[i] == s[j]:
+        # expand if criterion is met
+        i -= 1
+        j += 1
+    # after broken from the while loop, one extra expansion was done and need to be undone
+    return i + 1, j - 1
+
+
+test_inputs = ["aa", "cbbd", "aabbaa", "cadaca", "cadacca", "cafbacca"]
+print([longestPalindrome_expand(test) for test in test_inputs])

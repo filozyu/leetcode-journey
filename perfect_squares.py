@@ -1,3 +1,6 @@
+from collections import deque
+
+
 def numSquares_dp(n):
     """
     Dynamic programming (slow, time limit exceeded)
@@ -54,3 +57,49 @@ def sum_in_list(summ, l):
         if new_len < min_num:
             min_num = new_len
     return min_num
+
+
+def numSquare_BFS(n):
+    """
+    Breadth First Search (fast)
+    Time: ?
+    Space: O(n) (constant multiple of n: q, v and curr_chile in each while loop)
+    """
+    #             12
+    #      /   |        \
+    #     3    8         11
+    #    /    / \       / |   \
+    #   2    4   7     2  7    10
+    #  /   / \   /\   /   /\  / | \
+    # 1  *0*   3 3  6 1   3 6  1 6  9
+    # ...
+    # set the root and initialise the queue
+    # the second number in the tuple stores the number of edges between a node and the root
+    root = (n, 0)
+    q = deque()
+    q.append(root)
+    # set of visited nodes
+    v = {n}
+
+    # loop if q is not empty
+    while q:
+        # dequeue the node and get all its neighbours (children)
+        curr_node = q.popleft()
+        curr_child = [curr_node[0] - i ** 2 for i in range(1, int(curr_node[0] ** 0.5) + 1)]
+        for c in curr_child:
+            # stop if the first 0 is reached, return the number of edges between the root and that 0
+            # the path from the root to this 0 will be the shortest, since BFS is scanning layer by layer
+            if c == 0:
+                return curr_node[1] + 1
+            # if c not visited before, enqueue c and add it to the visited nodes
+            # if c is already in visited nodes, that means the current c's children will lead to a solution
+            # no better than the previously visited c, therefore one can stop searching for the current c's children
+
+            # Alternatively, transform the tree into a graph and merge all the nodes with the same values, then the
+            # question becomes to find the shortest path between node n and node 0, which can be solved using BFS
+            # BFS will visit ALL the nodes in one hop away, the two hops and so on, the hop counts when one sees
+            # the first occurrence of 0 will be the length of the shortest path
+            elif c not in v:
+                q.append((c, curr_node[1]+1))
+                v.add(c)
+

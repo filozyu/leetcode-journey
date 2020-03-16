@@ -58,8 +58,10 @@ def findMedianSortedArrays_three(nums1, nums2):
     if (n + m) % 2 == 0:
         left = int((n + m) / 2)
         right = int((n + m) / 2) + 1
-        return (find_k_smallest(nums1, 0, nums2, 0, left) + \
-                find_k_smallest(nums1, 0, nums2, 0, right)) / 2
+        return (
+            find_k_smallest(nums1, 0, nums2, 0, left)
+            + find_k_smallest(nums1, 0, nums2, 0, right)
+        ) / 2
     else:
         return find_k_smallest(nums1, 0, nums2, 0, int((n + m) / 2) + 1)
 

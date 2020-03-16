@@ -1,4 +1,4 @@
-from collections import deque
+from collections import defaultdict, deque
 
 
 def numSquares_dp(n):
@@ -7,12 +7,11 @@ def numSquares_dp(n):
     Time: O(n*sqrt(n))
     Space: O(n)
     """
-    from collections import defaultdict
     dp = defaultdict(int)
     # total time: int(sqrt(1)) + int(sqrt(2)) + ... + int(sqrt(n))
     # there will be (i+1)^2 - i^2 = 2i-1 repeating numbers between sqrt((i+1)^2) and sqrt(i^2)
     # The predominant term in the sum above is n*int(sqrt(n)), therefore O(n*sqrt(n))
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         # loop for n times
         dp[i] = i
         j = 1
@@ -29,10 +28,10 @@ def numSquares(n):
     """
     i = 2
     sq_list = []
-    while i**2 <= n:
-        sq_list.append(i**2)
+    while i ** 2 <= n:
+        sq_list.append(i ** 2)
 
-        if i**2 == n:
+        if i ** 2 == n:
             return 1
 
         i += 1
@@ -45,15 +44,15 @@ def sum_in_list(summ, l):
     min_num = summ
     if len(sublist) == 0:
         return summ
-    for i in range(len(sublist)-1, -1, -1):
+    for i in range(len(sublist) - 1, -1, -1):
         curr_divide = sublist[i]
         excess = summ % curr_divide
         if 0 < excess < 4:
-            new_len = excess + int(summ/curr_divide)
+            new_len = excess + int(summ / curr_divide)
         elif excess == 0:
-            new_len = int(summ/curr_divide)
+            new_len = int(summ / curr_divide)
         else:
-            new_len = sum_in_list(excess, sublist[:-1]) + int(summ/curr_divide)
+            new_len = sum_in_list(excess, sublist[:-1]) + int(summ / curr_divide)
         if new_len < min_num:
             min_num = new_len
     return min_num
@@ -85,7 +84,9 @@ def numSquare_BFS(n):
     while q:
         # dequeue the node and get all its neighbours (children)
         curr_node = q.popleft()
-        curr_child = [curr_node[0] - i ** 2 for i in range(1, int(curr_node[0] ** 0.5) + 1)]
+        curr_child = [
+            curr_node[0] - i ** 2 for i in range(1, int(curr_node[0] ** 0.5) + 1)
+        ]
         for c in curr_child:
             # stop if the first 0 is reached, return the number of edges between the root and that 0
             # the path from the root to this 0 will be the shortest, since BFS is scanning layer by layer
@@ -100,6 +101,5 @@ def numSquare_BFS(n):
             # BFS will visit ALL the nodes in one hop away, the two hops and so on, the hop counts when one sees
             # the first occurrence of 0 will be the length of the shortest path
             elif c not in v:
-                q.append((c, curr_node[1]+1))
+                q.append((c, curr_node[1] + 1))
                 v.add(c)
-

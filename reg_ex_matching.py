@@ -1,6 +1,7 @@
 import re
+# DIFFICULT
 
-# TODO: UNFINISHED
+
 def isMatch_recurrsion(s, p):
     """
     Recursion (slow, but accepted)
@@ -35,6 +36,7 @@ def isMatch_recurrsion_memo(s, p):
     """
     memo = dict()
     # memo can help avoid computing the same states in recursion, so is dp below
+
     def memo_update(i, j):
         if (i, j) in memo:
             return memo[(i, j)]
@@ -100,7 +102,6 @@ def isMatch_dp(s, p):
 # #
 # s = "ab"
 # p = ".*c"
-
 s = "aa"
 p = "a*"
 

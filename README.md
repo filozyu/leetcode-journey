@@ -10,4 +10,5 @@
 - [Q15](https://leetcode.com/problems/3sum/) - `three_sum.py`
 - [Q17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - `letter_comb_phone.py`
 - [Q19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - `rm_nth_node_end_list.py`
+- [Q20](https://leetcode.com/problems/valid-parentheses/) - `valid_parentheses.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`

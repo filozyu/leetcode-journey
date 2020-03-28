@@ -15,6 +15,7 @@
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
+- [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 
 ### TODO:
 Recursion: Q344

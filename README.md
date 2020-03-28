@@ -17,5 +17,3 @@
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 
-### TODO:
-Recursion: Q344

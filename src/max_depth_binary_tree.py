@@ -45,14 +45,15 @@ def maxDepth_BFS(root):
     """
     # similar to DFS, just replace the stack with a queue
     from collections import deque
+
     que = deque()
     max_depth = 0
     que.append((root, 1))
     while que:
         curr_node, curr_depth = que.popleft()
         if curr_node:
-            que.append((curr_node.left, curr_depth+1))
-            que.append((curr_node.right, curr_depth+1))
+            que.append((curr_node.left, curr_depth + 1))
+            que.append((curr_node.right, curr_depth + 1))
             if curr_depth > max_depth:
                 max_depth = curr_depth
     return max_depth

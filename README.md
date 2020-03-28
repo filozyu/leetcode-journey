@@ -13,7 +13,8 @@
 - [Q20](https://leetcode.com/problems/valid-parentheses/) - `valid_parentheses.py`
 - [Q21](https://leetcode.com/problems/merge-two-sorted-lists/) - `merge_two_sorted_list.py`
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
+- [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 
 ### TODO:
-Recursion: Q104, Q344
+Recursion: Q344

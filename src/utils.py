@@ -30,6 +30,8 @@ def timer(num_trails, call_func, *args, **kwargs):
 
 
 def list2ListNode(input_list):
+    if not input_list:
+        return None
     head = ListNode(input_list[0])
     curr = head
     if len(input_list) >= 2:

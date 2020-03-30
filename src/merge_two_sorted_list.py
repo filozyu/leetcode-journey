@@ -1,4 +1,4 @@
-from utils import ListNode2list, list2ListNode, ListNode
+from utils import ListNode
 
 
 def mergeTwoLists(l1, l2):
@@ -73,8 +73,3 @@ def mergeTwoLists_recur(l1, l2):
         l2.next = mergeTwoLists_recur(l1, l2.next)
         # return the merged list
         return l2
-
-
-test1, test2 = list2ListNode([1, 3, 5]), list2ListNode([2, 4, 6])
-print(test1, test2)
-print(ListNode2list(mergeTwoLists_recur(test1, test2)))

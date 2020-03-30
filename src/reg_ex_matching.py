@@ -1,4 +1,5 @@
 import re
+
 # DIFFICULT
 
 
@@ -70,32 +71,33 @@ def isMatch_dp(s, p):
     # dp[i][j] is whether the first i characters in s_new can be matched by the first j characters in p_new
     # if s_new and p_new matched, so will s and p
     # i and j are number of characters! not indices
-    dp = [[False for _ in range(len(p_new)+1)] for _ in range(len(s_new)+1)]
+    dp = [[False for _ in range(len(p_new) + 1)] for _ in range(len(s_new) + 1)]
 
     # base case, only used to initialise dp[1][1], which is certainly True
     dp[0][0] = True
 
     # for the i-th char in s_new (the first space included)
-    for i in range(1, len(s_new)+1):
+    for i in range(1, len(s_new) + 1):
         # for the j-th char in p_new (the first space included)
-        for j in range(1, len(p_new)+1):
+        for j in range(1, len(p_new) + 1):
             # the i-th char in s_new is s_new[i-1], the j-th char in p_new is p_new[j-1[
-            if s_new[i-1] == p_new[j-1] or p_new[j-1] == ".":
-                dp[i][j] = dp[i-1][j-1]
+            if s_new[i - 1] == p_new[j - 1] or p_new[j - 1] == ".":
+                dp[i][j] = dp[i - 1][j - 1]
 
             # otherwise if j-th char in p_new is *
-            elif p_new[j-1] == "*":
+            elif p_new[j - 1] == "*":
                 # if the j-1 -th char in p matches with the i-th char in s
-                if s_new[i-1] == p_new[j-2] or p_new[j - 2] == ".":
+                if s_new[i - 1] == p_new[j - 2] or p_new[j - 2] == ".":
                     # * could repeat: one or more times OR no repeat
-                    dp[i][j] = dp[i - 1][j] or dp[i][j-2]
+                    dp[i][j] = dp[i - 1][j] or dp[i][j - 2]
                     # alternatively (?) * could repeat: more than one time OR one time OR no repeat
                     # dp[i][j] = dp[i - 1][j] or dp[i][j-1] or dp[i][j-2]
                 else:
                     # otherwise * can only repeat zero time
-                    dp[i][j] = dp[i][j-2]
+                    dp[i][j] = dp[i][j - 2]
 
     return dp[-1][-1]
+
 
 # s = "aab"
 # p = "c*a*b"

@@ -16,10 +16,11 @@
 - [Q23](https://leetcode.com/problems/merge-k-sorted-lists/) - `merge_k_sorted_list.py`
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
+- [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 
 ### TODO
 Q22 (backtracking, DP and BFS)
 Q23 (priority queue)
-
+Q51

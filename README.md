@@ -17,9 +17,11 @@
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
+- [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 
 ### TODO
-Q22 (backtracking, DP and BFS)
-Q51
+- Q22 (backtracking, DP and BFS)
+- Q51
+- Q202 fast solution

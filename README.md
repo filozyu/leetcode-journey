@@ -22,5 +22,4 @@
 
 ### TODO
 Q22 (backtracking, DP and BFS)
-Q23 (priority queue)
 Q51

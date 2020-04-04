@@ -15,6 +15,7 @@
 - [Q22](https://leetcode.com/problems/generate-parentheses/) - `generate_parentheses.py`
 - [Q23](https://leetcode.com/problems/merge-k-sorted-lists/) - `merge_k_sorted_list.py`
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
+- [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
 - [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
@@ -23,4 +24,5 @@
 
 ### TODO
 - Q22 (backtracking, DP and BFS)
-- Q51
+- Q51 (N-Queens)
+- Q53 (divide and conquer)

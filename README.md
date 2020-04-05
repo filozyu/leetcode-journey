@@ -17,12 +17,17 @@
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
+- [Q122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - `best_time_buy_sell_stock_ii.py`
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
 - [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
+- [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 
 ### TODO
 - Q22 (backtracking, DP and BFS)
 - Q51 (N-Queens)
+#### From 30 days challenge
 - Q53 (divide and conquer)
+- Q122 (other methods)
+- Q283 (other methods)

@@ -15,6 +15,7 @@
 - [Q22](https://leetcode.com/problems/generate-parentheses/) - `generate_parentheses.py`
 - [Q23](https://leetcode.com/problems/merge-k-sorted-lists/) - `merge_k_sorted_list.py`
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
+- [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - `best_time_buy_sell_stock_ii.py`
@@ -28,6 +29,6 @@
 - Q22 (backtracking, DP and BFS)
 - Q51 (N-Queens)
 #### From 30 days challenge
+- Q49 (other methods)
 - Q53 (divide and conquer)
-- Q122 (other methods)
 - Q283 (other methods)

@@ -31,4 +31,3 @@
 #### From 30 days challenge
 - Q49 (other methods)
 - Q53 (divide and conquer)
-- Q283 (other methods)

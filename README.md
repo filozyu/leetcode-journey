@@ -29,4 +29,3 @@
 - Q22 (backtracking, DP and BFS)
 - Q51 (N-Queens)
 #### From 30 days challenge
-- Q49 (other methods)

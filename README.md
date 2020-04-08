@@ -16,6 +16,7 @@
 - [Q23](https://leetcode.com/problems/merge-k-sorted-lists/) - `merge_k_sorted_list.py`
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
 - [Q25](https://leetcode.com/problems/reverse-nodes-in-k-group/) - `reverse_node_k_groups.py`
+- [Q32](https://leetcode.com/problems/longest-valid-parentheses/) - `longest_valid_parentheses.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
@@ -29,5 +30,6 @@
 
 ### TODO
 - Q22 (backtracking, DP and BFS)
+- Q32 (DP and constant time and space sol)
 - Q51 (N-Queens)
 #### From 30 days challenge

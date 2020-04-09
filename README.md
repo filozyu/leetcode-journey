@@ -30,6 +30,5 @@
 
 ### TODO
 - Q22 (backtracking, DP and BFS)
-- Q32 (DP and constant time and space sol)
 - Q51 (N-Queens)
 #### From 30 days challenge

@@ -1,4 +1,4 @@
-def longestValidParentheses(s):
+def longestValidParentheses_slow(s):
     """
     Brute force
     Time: n^2 + (n-1)^2 + ... + 1 so O(n^3)
@@ -62,8 +62,91 @@ def longestValidParentheses_stack(s):
             max_len = max(max_len, i - stack[-1])
     return max_len
 
+
+def longestValidParentheses_dp(s):
+    """
+    Dynamic programming
+    Time: O(n)
+    Space: O(n) storage for dp
+    dp[i] is the max length of parentheses ending at the i-th char in s
+    so dp is zero for all the positions of "("
+    """
+    length = len(s)
+    max_len = 0
+    dp = [0] * length
+    for i in range(1, length):
+        # case 1: ....()
+        if s[i] == ")" and s[i - 1] == "(":
+            # if i > 2, get the previous length of parentheses
+            if i > 2:
+                dp[i] = dp[i - 2] + 2
+            else:
+                dp[i] = 2
+        # case 2: ....))
+        # the last two conditions:
+        # 1) s[i - dp[i-1]] should be a "(", to match the ")" at s[i-1]; note that dp[i-1] <= i
+        # so if i-dp[i-1] == 0: then i+1 must be odd and therefore no match
+        # 2) the char before the "(" we located in 1) must also be a "(" to match with s[i]
+        elif (
+            s[i] == ")"
+            and s[i - 1] == ")"
+            and i - dp[i - 1] >= 1
+            and s[i - dp[i - 1] - 1] == "("
+        ):
+            # dp[i - dp[i - 1] - 2] here in case there are any consecutive parentheses separated by s[i - dp[i - 1] - 1]
+            dp[i] = dp[i - 1] + dp[i - dp[i - 1] - 2] + 2
+        max_len = max(max_len, dp[i])
+    return max_len
+
+
+def longestValidParentheses_two_pointers(s):
+    """
+    Two pointers
+    Time: O(n)
+    Space: O(1)
+    two passes (from start to end and from end to start)
+    left records number of "("
+    right records number of ")"
+    """
+    max_len = 0
+    length = len(s)
+    # first pass: cannot detect say (()()
+    # but can detect ()())
+    left, right = 0, 0
+    for i in range(length):
+        # reset left and right if invalid
+        if right > left:
+            left, right = 0, 0
+        if s[i] == "(":
+            left += 1
+        else:
+            right += 1
+        # calculate the length every time when the parentheses are matching
+        if right == left:
+            max_len = max(max_len, right + left)
+
+    # second pass: cannot detect say ()())
+    # but can detect (()()
+    left, right = 0, 0
+    for i in range(length - 1, -1, -1):
+        # reset left and right if invalid
+        if right < left:
+            left, right = 0, 0
+        if s[i] == "(":
+            left += 1
+        else:
+            right += 1
+        # calculate the length every time when the parentheses are matching
+        if right == left:
+            max_len = max(max_len, right + left)
+
+    return max_len
+
+
 # test = ")()())"
 # test = "()((()()()"
-test = "(()"
+# test = "(()"
+# test = "(()))())("
+test = "()()"
 
-print(longestValidParentheses_stack(test))
+print(longestValidParentheses_two_pointers(test))

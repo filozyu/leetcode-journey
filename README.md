@@ -22,10 +22,12 @@
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - `best_time_buy_sell_stock_ii.py`
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
+- [Q155](https://leetcode.com/problems/min-stack/) - `min_stack.py`
 - [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
+- [Q543](https://leetcode.com/problems/diameter-of-binary-tree/) - `diameter_binary_tree.py`
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q876](https://leetcode.com/problems/middle-of-the-linked-list/) - `middle_linked_list.py`
 
@@ -33,3 +35,4 @@
 - Q22 (backtracking, DP and BFS)
 - Q51 (N-Queens)
 #### From 30 days challenge
+Q155 and Q543: Other methods

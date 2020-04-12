@@ -70,16 +70,16 @@ def list2binary_tree(input_list):
     visited.append(root)
     while len(input_list) > 0:
         curr_node = visited.popleft()
-        if not curr_node:
+        if curr_node is None:
             continue
-        if input_list[0]:
+        if input_list[0] is not None:
             left_child = TreeNode(input_list.pop(0))
         else:
             left_child = input_list.pop(0)
         if len(input_list) == 0:
             curr_node.left = left_child
             break
-        if input_list[0]:
+        if input_list[0] is not None:
             right_child = TreeNode(input_list.pop(0))
         else:
             right_child = input_list.pop(0)

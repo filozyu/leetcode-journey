@@ -17,6 +17,7 @@
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
 - [Q25](https://leetcode.com/problems/reverse-nodes-in-k-group/) - `reverse_node_k_groups.py`
 - [Q32](https://leetcode.com/problems/longest-valid-parentheses/) - `longest_valid_parentheses.py`
+- [Q33](https://leetcode.com/problems/search-in-rotated-sorted-array/) - `search_rotated_sorted_array.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
@@ -30,6 +31,7 @@
 - [Q543](https://leetcode.com/problems/diameter-of-binary-tree/) - `diameter_binary_tree.py`
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q876](https://leetcode.com/problems/middle-of-the-linked-list/) - `middle_linked_list.py`
+- [Q1046](https://leetcode.com/problems/last-stone-weight/) - `last_stone_weight.py`
 
 ### TODO
 - Q22 (backtracking, DP and BFS)

@@ -43,21 +43,6 @@ def search(nums, target):
     return -1
 
 
-def binary_search(nums, target):
-    n = len(nums)
-    left, right = 0, n - 1
-    while left <= right:
-        median = (right + left) // 2
-        if target == nums[median]:
-            return median
-        elif target > nums[median]:
-            left = median + 1
-        else:
-            right = median - 1
-
-    return -1
-
-
 test = [5, 7, 9, 12, 1, 3]
 test_tar = 3
 print(search(test, test_tar))

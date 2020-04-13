@@ -29,6 +29,20 @@ def timer(num_trails, call_func, *args, **kwargs):
     return thresh_avg_time
 
 
+def binary_search(nums, target, left=0, right=None):
+    if right is None:
+        right = len(nums - 1)
+    while left <= right:
+        median = (right + left) // 2
+        if target == nums[median]:
+            return median
+        elif target > nums[median]:
+            left = median + 1
+        else:
+            right = median - 1
+    return -1
+
+
 def list2ListNode(input_list):
     if not input_list:
         return None

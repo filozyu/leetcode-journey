@@ -30,17 +30,85 @@ def timer(num_trails, call_func, *args, **kwargs):
 
 
 def binary_search(nums, target, left=0, right=None):
+    """
+    Binary search ([left, right] inclusive)
+    """
     if right is None:
-        right = len(nums - 1)
+        right = len(nums) - 1
+    # search interval: [left, right] inclusive
+    # therefore "<=" in while condition
+    # the last interval to be searched is [left, left] or equivalently, [right, right]
     while left <= right:
-        median = (right + left) // 2
-        if target == nums[median]:
-            return median
-        elif target > nums[median]:
-            left = median + 1
+        mid = (right + left) // 2
+        if target == nums[mid]:
+            return mid
+        elif target > nums[mid]:
+            left = mid + 1
         else:
-            right = median - 1
+            right = mid - 1
     return -1
+
+
+def binary_search_left(nums, target, left=0, right=None):
+    """
+    Binary search for left boundary (or first occurrence) ([left, right] inclusive)
+    """
+    if right is None:
+        right = len(nums) - 1
+    # search interval: [left, right] inclusive
+    # therefore "<=" in while condition
+    # the last interval to be searched is [left, left] or equivalently, [right, right]
+    while left <= right:
+        mid = left + (right - left) // 2
+        if nums[mid] == target:
+            right = mid - 1
+        elif nums[mid] < target:
+            left = mid + 1
+        elif nums[mid] > target:
+            right = mid - 1
+
+    # If not found:
+    # if target large than all the numbers in nums: left will be len(nums), right will be len(nums)-1
+    # if target smaller than all the numbers in nums: left will be 0, right will be -1
+    # if nums[i] < target < nums[i+1]: left will be i+1, right will be i
+
+    # If found:
+    # target == nums[i]: left will be i, right will be i - 1
+    if left <= len(nums) - 1 and nums[left] == target:
+        return left
+    else:
+        return -1
+
+
+def binary_search_right(nums, target, left=0, right=None):
+    """
+    Binary search for right boundary (or last occurrence) ([left, right] inclusive)
+    """
+    if right is None:
+        right = len(nums) - 1
+    # search interval: [left, right] inclusive
+    # therefore "<=" in while condition
+    # the last interval to be searched is [left, left] or equivalently, [right, right]
+    while left <= right:
+        mid = left + (right - left) // 2
+        if nums[mid] == target:
+            left = mid + 1
+        elif nums[mid] < target:
+            left = mid + 1
+        elif nums[mid] > target:
+            right = mid - 1
+
+    # If not found:
+    # if target large than all the numbers in nums: left will be len(nums), right will be len(nums)-1
+    # if target smaller than all the numbers in nums: left will be 0, right will be -1
+    # if nums[i] < target < nums[i+1]: left will be i+1, right will be i
+
+    # If found:
+    # target == nums[i]: right will be i, left will be i + 1
+    if right >= 0 and nums[right] == target:
+        return right
+    else:
+        return -1
 
 
 def list2ListNode(input_list):

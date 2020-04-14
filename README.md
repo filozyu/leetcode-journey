@@ -18,6 +18,7 @@
 - [Q25](https://leetcode.com/problems/reverse-nodes-in-k-group/) - `reverse_node_k_groups.py`
 - [Q32](https://leetcode.com/problems/longest-valid-parentheses/) - `longest_valid_parentheses.py`
 - [Q33](https://leetcode.com/problems/search-in-rotated-sorted-array/) - `search_rotated_sorted_array.py`
+- [Q34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - `find_first_last_position_sorted_array.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
@@ -36,6 +37,7 @@
 
 ### TODO
 - Q22 (backtracking, DP and BFS)
+- Q34 (O(logn) sol)
 - Q51 (N-Queens)
 #### From 30 days challenge
 - Q155, Q543 and Q1046: Other methods

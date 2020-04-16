@@ -19,6 +19,7 @@
 - [Q32](https://leetcode.com/problems/longest-valid-parentheses/) - `longest_valid_parentheses.py`
 - [Q33](https://leetcode.com/problems/search-in-rotated-sorted-array/) - `search_rotated_sorted_array.py`
 - [Q34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - `find_first_last_position_sorted_array.py`
+- [Q39](https://leetcode.com/problems/combination-sum/) - `combination_sum.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
@@ -26,11 +27,13 @@
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
 - [Q155](https://leetcode.com/problems/min-stack/) - `min_stack.py`
 - [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
+- [Q238](https://leetcode.com/problems/product-of-array-except-self/) - `product_array_except_self.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 - [Q525](https://leetcode.com/problems/contiguous-array/) - `contiguous_array.py`
 - [Q543](https://leetcode.com/problems/diameter-of-binary-tree/) - `diameter_binary_tree.py`
+- [Q678](https://leetcode.com/problems/valid-parenthesis-string/) - `valid_parentheses_str.py`
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q876](https://leetcode.com/problems/middle-of-the-linked-list/) - `middle_linked_list.py`
 - [Q1046](https://leetcode.com/problems/last-stone-weight/) - `last_stone_weight.py`
@@ -38,7 +41,10 @@
 ### TODO
 - Q22 (backtracking, DP and BFS)
 - Q34 (O(logn) sol)
+- Q39 (faster backtracking)
 - Q51 (N-Queens)
 #### From 30 days challenge
 - Q155, Q543 and Q1046: Other methods
 - Q525 how to make DP work
+- Q238 O(1)
+- Q678 DP and greedy

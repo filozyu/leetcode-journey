@@ -25,6 +25,7 @@
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - `best_time_buy_sell_stock_ii.py`
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
+- [Q146](https://leetcode.com/problems/lru-cache/) - `least_recent_use_cache.py`
 - [Q155](https://leetcode.com/problems/min-stack/) - `min_stack.py`
 - [Q200](https://leetcode.com/problems/number-of-islands/) - `num_island.py`
 - [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
@@ -44,6 +45,7 @@
 - Q34 (O(logn) sol)
 - Q39 (faster backtracking)
 - Q51 (N-Queens)
+- Q200 (other methods)
 #### From 30 days challenge
 - Q155, Q543 and Q1046: Other methods
 - Q525 how to make DP work

@@ -45,9 +45,9 @@
 - Q34 (O(logn) sol)
 - Q39 (faster backtracking)
 - Q51 (N-Queens)
-- Q200 (other methods)
-#### From 30 days challenge
+- Q146 (Hashmap + DoubleLinkedList)
 - Q155, Q543 and Q1046: Other methods
-- Q525 how to make DP work
+- Q200 (other methods)
 - Q238 O(1)
+- Q525 how to make DP work
 - Q678 DP and greedy

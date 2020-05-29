@@ -20,6 +20,7 @@
 - [Q33](https://leetcode.com/problems/search-in-rotated-sorted-array/) - `search_rotated_sorted_array.py`
 - [Q34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - `find_first_last_position_sorted_array.py`
 - [Q39](https://leetcode.com/problems/combination-sum/) - `combination_sum.py`
+- [Q42](https://leetcode.com/problems/trapping-rain-water/) - `trap_rain_water.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`

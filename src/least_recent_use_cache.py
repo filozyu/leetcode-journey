@@ -42,6 +42,7 @@ class LRUCache:
             self.cache.popitem(last=False)
             self.cache[key] = value
 
+
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)

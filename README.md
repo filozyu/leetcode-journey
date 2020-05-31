@@ -39,6 +39,7 @@
 - [Q678](https://leetcode.com/problems/valid-parenthesis-string/) - `valid_parentheses_str.py`
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q876](https://leetcode.com/problems/middle-of-the-linked-list/) - `middle_linked_list.py`
+- [Q994](https://leetcode.com/problems/rotting-oranges/) - `rotten_orange.py`
 - [Q1046](https://leetcode.com/problems/last-stone-weight/) - `last_stone_weight.py`
 
 ### TODO

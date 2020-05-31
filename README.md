@@ -27,6 +27,7 @@
 - [Q121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - `max_profit.py`
 - [Q122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - `max_profit_ii.py`
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
+- [Q138](https://leetcode.com/problems/copy-list-with-random-pointer/) - `copy_random_list.py`
 - [Q146](https://leetcode.com/problems/lru-cache/) - `least_recent_use_cache.py`
 - [Q155](https://leetcode.com/problems/min-stack/) - `min_stack.py`
 - [Q200](https://leetcode.com/problems/number-of-islands/) - `num_island.py`

@@ -44,6 +44,7 @@
 - [Q543](https://leetcode.com/problems/diameter-of-binary-tree/) - `diameter_binary_tree.py`
 - [Q678](https://leetcode.com/problems/valid-parenthesis-string/) - `valid_parentheses_str.py`
 - [Q692](https://leetcode.com/problems/top-k-frequent-words/) - `top_k_frequent_words.py`
+- [Q819](https://leetcode.com/problems/most-common-word/) - `most_common_word.py`
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q876](https://leetcode.com/problems/middle-of-the-linked-list/) - `middle_linked_list.py`
 - [Q994](https://leetcode.com/problems/rotting-oranges/) - `rotten_orange.py`
@@ -61,3 +62,4 @@
 - Q238 O(1)
 - Q525 how to make DP work
 - Q678 DP and greedy
+- Q819 clean-up and study re/string

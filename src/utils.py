@@ -132,21 +132,6 @@ def ListNode2list(input_listnode):
     return res
 
 
-def ListNode_reverse(head):
-    """
-    Reverse a ListNode
-    """
-    head_next = head.next
-    prev_head = head
-    prev_head.next = None
-    while head_next:
-        head = head_next
-        head_next = head.next
-        head.next = prev_head
-        prev_head = head
-    return head
-
-
 def list2binary_tree(input_list):
     """
     Build binary tree from the given input list

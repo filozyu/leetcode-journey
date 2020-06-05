@@ -34,6 +34,7 @@
 - [Q155](https://leetcode.com/problems/min-stack/) - `min_stack.py`
 - [Q200](https://leetcode.com/problems/number-of-islands/) - `num_island.py`
 - [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
+- [Q206](https://leetcode.com/problems/reverse-linked-list/) - `reverse_linked_list.py`
 - [Q238](https://leetcode.com/problems/product-of-array-except-self/) - `product_array_except_self.py`
 - [Q253](https://leetcode.com/problems/meeting-rooms-ii/) - `meeting_rooms_ii.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`

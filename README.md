@@ -49,6 +49,7 @@
 - [Q819](https://leetcode.com/problems/most-common-word/) - `most_common_word.py`
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q876](https://leetcode.com/problems/middle-of-the-linked-list/) - `middle_linked_list.py`
+- [Q973](https://leetcode.com/problems/k-closest-points-to-origin/) - `k_closest_origin.py`
 - [Q994](https://leetcode.com/problems/rotting-oranges/) - `rotten_orange.py`
 - [Q1046](https://leetcode.com/problems/last-stone-weight/) - `last_stone_weight.py`
 
@@ -65,3 +66,4 @@
 - Q525 how to make DP work
 - Q678 DP and greedy
 - Q819 clean-up and study re/string
+- Q973 divide and conquer

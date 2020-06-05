@@ -42,6 +42,7 @@
 - [Q380](https://leetcode.com/problems/insert-delete-getrandom-o1/) - `insert_delete_random.py`
 - [Q525](https://leetcode.com/problems/contiguous-array/) - `contiguous_array.py`
 - [Q543](https://leetcode.com/problems/diameter-of-binary-tree/) - `diameter_binary_tree.py`
+- [Q572](https://leetcode.com/problems/subtree-of-another-tree/) - `subtree.py`
 - [Q678](https://leetcode.com/problems/valid-parenthesis-string/) - `valid_parentheses_str.py`
 - [Q692](https://leetcode.com/problems/top-k-frequent-words/) - `top_k_frequent_words.py`
 - [Q819](https://leetcode.com/problems/most-common-word/) - `most_common_word.py`

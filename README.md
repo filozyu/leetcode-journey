@@ -35,6 +35,7 @@
 - [Q200](https://leetcode.com/problems/number-of-islands/) - `num_island.py`
 - [Q202](https://leetcode.com/problems/happy-number/) - `happy_number.py`
 - [Q206](https://leetcode.com/problems/reverse-linked-list/) - `reverse_linked_list.py`
+- [Q210](https://leetcode.com/problems/course-schedule-ii/) - `course_schedule_ii.py`
 - [Q238](https://leetcode.com/problems/product-of-array-except-self/) - `product_array_except_self.py`
 - [Q240](https://leetcode.com/problems/search-a-2d-matrix-ii/) - `search_2d_matrix_ii.py`
 - [Q253](https://leetcode.com/problems/meeting-rooms-ii/) - `meeting_rooms_ii.py`
@@ -61,10 +62,13 @@
 - Q34 (O(logn) sol)
 - Q39 (faster backtracking)
 - Q51 (N-Queens)
+- Q56 (merge intervals)
+- Q88 (merge sorted arrays)
 - Q127 (Bi-directional BFS)
 - Q146 (Hashmap + DoubleLinkedList)
 - Q155, Q543 and Q1046: Other methods
 - Q200 (other methods)
+- Q210 in-degree method
 - Q238 O(1)
 - Q240 divide and conquer
 - Q525 how to make DP work

@@ -15,7 +15,28 @@ def moveZeroes(nums):
             i += 1
 
 
-def moveZeroes_two_pointers_1(nums):
+def moveZeroes_linear(nums):
+    """
+    Two passes
+    Time: O(n)
+    Space: O(n)
+    """
+    non_zero_nums = []
+    # put all non-zero elements in nums
+    for i in range(len(nums)):
+        if nums[i] != 0:
+            non_zero_nums.append(nums[i])
+    # copy non_zero_nums to nums and set the rest of nums to zeros
+    for i in range(len(nums)):
+        if i < len(non_zero_nums):
+            nums[i] = non_zero_nums[i]
+        else:
+            nums[i] = 0
+
+    return nums
+
+
+def moveZeroes_two_pointers(nums):
     """
     Two pointers
     Time: O(n)
@@ -24,34 +45,16 @@ def moveZeroes_two_pointers_1(nums):
     non_zero_next = 0
     n = len(nums)
     for i in range(n):
-        # for every number if it is not zero, swap it with the last nonzero's next element
-        # if non_zero_next == i: equivalent to no swapping at all since nums[i] != 0
+        # for every number if it is not zero, swap it with the last nonzero's next element (non_zero_next)
+        # then update non_zero_next
         if nums[i] != 0:
-            nums[non_zero_next], nums[i] = nums[i], nums[non_zero_next]
-            # after swapping the last nonzero advances 1, so is non_zero_next
+            # to prevent swapping the same element when non_zero_next == i
+            if non_zero_next != i:
+                nums[non_zero_next], nums[i] = nums[i], nums[non_zero_next]
+            # after swapping the last non-zero advances 1, so non_zero_next also advances 1
             non_zero_next += 1
 
 
-def moveZeroes_two_pointers_2(nums):
-    """
-    Two pointers
-    Time: O(n)
-    Space: O(1)
-    """
-    last_non_zero = 0
-    n = len(nums)
-    for i in range(n):
-        # last_non_zero records the index of the last seen non-zero number
-        if nums[i] != 0 and i > last_non_zero:
-            # assign the non-zero number to the next of last_non_zero
-            nums[last_non_zero + 1] = nums[i]
-            # swap if the next of last_non_zero is not i
-            if last_non_zero + 1 != i:
-                nums[i] = 0
-            # update last_non_zero
-            last_non_zero += 1
-
-
 test = [0, 1, 0, 3, 12]
-moveZeroes_two_pointers_2(test)
+moveZeroes_two_pointers(test)
 print(test)

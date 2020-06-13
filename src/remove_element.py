@@ -1,3 +1,4 @@
+# Two pointers
 def removeElement(nums, val):
     """
     Swap deletions and non-deletion elements

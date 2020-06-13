@@ -17,6 +17,7 @@
 - [Q24](https://leetcode.com/problems/swap-nodes-in-pairs/) - `swap_nodes_pair.py`
 - [Q25](https://leetcode.com/problems/reverse-nodes-in-k-group/) - `reverse_node_k_groups.py`
 - [Q26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - `remove_duplicates.py`
+- [Q27](https://leetcode.com/problems/remove-element/) - `remove_element.py`
 - [Q32](https://leetcode.com/problems/longest-valid-parentheses/) - `longest_valid_parentheses.py`
 - [Q33](https://leetcode.com/problems/search-in-rotated-sorted-array/) - `search_rotated_sorted_array.py`
 - [Q34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - `find_first_last_position_sorted_array.py`

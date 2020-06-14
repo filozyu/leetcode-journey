@@ -50,6 +50,7 @@
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
+- [Q345](https://leetcode.com/problems/reverse-vowels-of-a-string/) - `reverse_vowels.py`
 - [Q380](https://leetcode.com/problems/insert-delete-getrandom-o1/) - `insert_delete_random.py`
 - [Q412](https://leetcode.com/problems/fizz-buzz/) - `fizz_buzz.py`
 - [Q525](https://leetcode.com/problems/contiguous-array/) - `contiguous_array.py`

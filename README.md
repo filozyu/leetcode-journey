@@ -27,6 +27,7 @@
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q79](https://leetcode.com/problems/word-search/) - `word_search.py`
 - [Q80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - `remove_duplicates_ii.py`
+- [Q88](https://leetcode.com/problems/merge-sorted-array/) - `merge_two_sorted_array.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - `max_profit.py`
 - [Q122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - `max_profit_ii.py`

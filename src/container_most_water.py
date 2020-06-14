@@ -1,3 +1,4 @@
+# colliding two pointers
 def maxArea(height):
     """
     Brute force (Time limit exceeded)

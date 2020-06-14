@@ -1,3 +1,4 @@
+# colliding two pointers
 def reverseString(s):
     """
     Two pointers

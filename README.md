@@ -31,6 +31,7 @@
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - `max_profit.py`
 - [Q122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - `max_profit_ii.py`
+- [Q125](https://leetcode.com/problems/valid-palindrome/) - `valid_palindrome.py`
 - [Q127](https://leetcode.com/problems/word-ladder/) - `word_ladder.py`
 - [Q136](https://leetcode.com/problems/single-number/) - `single_number.py`
 - [Q138](https://leetcode.com/problems/copy-list-with-random-pointer/) - `copy_random_list.py`

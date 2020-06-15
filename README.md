@@ -47,6 +47,7 @@
 - [Q227](https://leetcode.com/problems/basic-calculator-ii/) - `basic_calculator_ii.py`
 - [Q238](https://leetcode.com/problems/product-of-array-except-self/) - `product_array_except_self.py`
 - [Q240](https://leetcode.com/problems/search-a-2d-matrix-ii/) - `search_2d_matrix_ii.py`
+- [Q242](https://leetcode.com/problems/valid-anagram/) - `valid_anagram.py`
 - [Q253](https://leetcode.com/problems/meeting-rooms-ii/) - `meeting_rooms_ii.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`

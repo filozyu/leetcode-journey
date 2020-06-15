@@ -52,6 +52,7 @@
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 - [Q345](https://leetcode.com/problems/reverse-vowels-of-a-string/) - `reverse_vowels.py`
+- [Q349](https://leetcode.com/problems/intersection-of-two-arrays/) - `intersection_two_array.py`
 - [Q380](https://leetcode.com/problems/insert-delete-getrandom-o1/) - `insert_delete_random.py`
 - [Q412](https://leetcode.com/problems/fizz-buzz/) - `fizz_buzz.py`
 - [Q525](https://leetcode.com/problems/contiguous-array/) - `contiguous_array.py`
@@ -86,3 +87,11 @@
 - Q678 DP and greedy
 - Q819 clean-up and study re/string
 - Q973 divide and conquer
+
+#### Sliding window
+- Q76
+- Q438
+
+#### Partition
+- Q75
+- Q215

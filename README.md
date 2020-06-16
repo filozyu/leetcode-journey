@@ -97,3 +97,20 @@
 #### Partition
 - Q75
 - Q215
+
+#### Lookup table (dict and set)
+- Q290
+- Q451
+- Q16
+- Q18
+- Q454
+- Q49
+- Q447
+- Q149
+
+#### Sliding window and lookup
+- Q217
+- Q219
+
+#### Tree based dictionary
+- Q220

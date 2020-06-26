@@ -58,6 +58,7 @@
 - [Q350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) - `intersection_two_array_ii.py`
 - [Q380](https://leetcode.com/problems/insert-delete-getrandom-o1/) - `insert_delete_random.py`
 - [Q412](https://leetcode.com/problems/fizz-buzz/) - `fizz_buzz.py`
+- [Q451](https://leetcode.com/problems/sort-characters-by-frequency/) - `sort_char_by_freq.py`
 - [Q525](https://leetcode.com/problems/contiguous-array/) - `contiguous_array.py`
 - [Q543](https://leetcode.com/problems/diameter-of-binary-tree/) - `diameter_binary_tree.py`
 - [Q572](https://leetcode.com/problems/subtree-of-another-tree/) - `subtree.py`
@@ -101,7 +102,6 @@
 
 #### Lookup table (dict and set)
 - Q290
-- Q451
 - Q18
 - Q454
 - Q49

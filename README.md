@@ -92,7 +92,6 @@
 - Q678 DP and greedy
 - Q819 clean-up and study re/string
 - Q973 divide and conquer
-- Q18 extension for k sum
 
 #### Sliding window
 - Q76

@@ -8,6 +8,7 @@
 - [Q10](https://leetcode.com/problems/regular-expression-matching/) - `reg_ex_matching.py`
 - [Q11](https://leetcode.com/problems/container-with-most-water/) - `container_most_water.py`
 - [Q15](https://leetcode.com/problems/3sum/) - `three_sum.py`
+- [Q16](https://leetcode.com/problems/3sum-closest/) - `three_sum_closest.py`
 - [Q17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - `letter_comb_phone.py`
 - [Q19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - `rm_nth_node_end_list.py`
 - [Q20](https://leetcode.com/problems/valid-parentheses/) - `valid_parentheses.py`
@@ -101,7 +102,6 @@
 #### Lookup table (dict and set)
 - Q290
 - Q451
-- Q16
 - Q18
 - Q454
 - Q49

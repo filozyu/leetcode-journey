@@ -10,6 +10,7 @@
 - [Q15](https://leetcode.com/problems/3sum/) - `three_sum.py`
 - [Q16](https://leetcode.com/problems/3sum-closest/) - `three_sum_closest.py`
 - [Q17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - `letter_comb_phone.py`
+- [Q18](https://leetcode.com/problems/4sum/) - `four_sum.py`
 - [Q19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - `rm_nth_node_end_list.py`
 - [Q20](https://leetcode.com/problems/valid-parentheses/) - `valid_parentheses.py`
 - [Q21](https://leetcode.com/problems/merge-two-sorted-lists/) - `merge_two_sorted_list.py`
@@ -91,6 +92,7 @@
 - Q678 DP and greedy
 - Q819 clean-up and study re/string
 - Q973 divide and conquer
+- Q18 extension for k sum
 
 #### Sliding window
 - Q76
@@ -102,7 +104,6 @@
 
 #### Lookup table (dict and set)
 - Q290
-- Q18
 - Q454
 - Q49
 - Q447

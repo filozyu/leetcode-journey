@@ -73,6 +73,7 @@
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q863](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) - `node_distance_k_binary_tree.py`
 - [Q876](https://leetcode.com/problems/middle-of-the-linked-list/) - `middle_linked_list.py`
+- [Q953](https://leetcode.com/problems/verifying-an-alien-dictionary/) - `verify_alien_dictionary.py`
 - [Q957](https://leetcode.com/problems/prison-cells-after-n-days/) - `prison_cell_n_days.py`
 - [Q973](https://leetcode.com/problems/k-closest-points-to-origin/) - `k_closest_origin.py`
 - [Q994](https://leetcode.com/problems/rotting-oranges/) - `rotten_orange.py`

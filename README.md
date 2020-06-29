@@ -76,6 +76,7 @@
 - [Q973](https://leetcode.com/problems/k-closest-points-to-origin/) - `k_closest_origin.py`
 - [Q994](https://leetcode.com/problems/rotting-oranges/) - `rotten_orange.py`
 - [Q1046](https://leetcode.com/problems/last-stone-weight/) - `last_stone_weight.py`
+- [Q1192](https://leetcode.com/problems/critical-connections-in-a-network/) - `critical_connection.py`
 
 ### TODO
 - Q22 (backtracking, DP and BFS)

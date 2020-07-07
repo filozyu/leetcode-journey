@@ -1,4 +1,4 @@
-# BFS, directed graph, roots tracing
+# BFS, directed graph, roots tracing, topological sort
 from collections import deque
 
 

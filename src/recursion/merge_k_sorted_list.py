@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Any
 
-from merge_two_sorted_list import mergeTwoLists
+from recursion.merge_two_sorted_list import mergeTwoLists
 from utils import list2ListNode, ListNode2list, ListNode
 
 

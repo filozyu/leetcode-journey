@@ -102,7 +102,6 @@
 - Q819 clean-up and study re/string
 - Q973 divide and conquer
 - Q269 DFS solution
-- Q455 O(1) space?
 
 #### Sliding window
 - Q76

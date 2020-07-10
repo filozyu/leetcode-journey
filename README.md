@@ -28,6 +28,7 @@
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q54](https://leetcode.com/problems/spiral-matrix/) - `spiral_matrix.py`
+- [Q61](https://leetcode.com/problems/rotate-list/) - `rotate_list.py`
 - [Q79](https://leetcode.com/problems/word-search/) - `word_search.py`
 - [Q80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - `remove_duplicates_ii.py`
 - [Q82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) - `remove_duplicate_sorted_list_ii.py`

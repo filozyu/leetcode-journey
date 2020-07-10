@@ -32,6 +32,7 @@
 - [Q80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - `remove_duplicates_ii.py`
 - [Q82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) - `remove_duplicate_sorted_list_ii.py`
 - [Q83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) - `remove_duplicate_sorted_list.py`
+- [Q86](https://leetcode.com/problems/partition-list/) - `partition_list.py`
 - [Q88](https://leetcode.com/problems/merge-sorted-array/) - `merge_two_sorted_array.py`
 - [Q92](https://leetcode.com/problems/reverse-linked-list-ii/) - `reverse_linked_list_ii.py`
 - [Q103](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - `binary_tree_zigzag_level_traverse.py`

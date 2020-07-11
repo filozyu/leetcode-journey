@@ -49,6 +49,7 @@
 - [Q146](https://leetcode.com/problems/lru-cache/) - `least_recent_use_cache.py`
 - [Q147](https://leetcode.com/problems/insertion-sort-list/) - `insertion_sort_list.py`
 - [Q148](https://leetcode.com/problems/sort-list/) - `sort_list.py`
+- [Q150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - `evaluate_reverse_polish_notation.py`
 - [Q155](https://leetcode.com/problems/min-stack/) - `min_stack.py`
 - [Q167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) - `two_sum_ii.py`
 - [Q173](https://leetcode.com/problems/binary-search-tree-iterator/) - `binary_search_tree_iterator.py`

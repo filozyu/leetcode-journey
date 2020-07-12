@@ -49,6 +49,7 @@
 - [Q139](https://leetcode.com/problems/word-break/) - `word_break.py`
 - [Q143](https://leetcode.com/problems/reorder-list/) - `reorder_list.py`
 - [Q144](https://leetcode.com/problems/binary-tree-preorder-traversal/) - `binary_tree_preorder.py`
+- [Q145](https://leetcode.com/problems/binary-tree-postorder-traversal/) - `binary_tree_postorder.py`
 - [Q146](https://leetcode.com/problems/lru-cache/) - `least_recent_use_cache.py`
 - [Q147](https://leetcode.com/problems/insertion-sort-list/) - `insertion_sort_list.py`
 - [Q148](https://leetcode.com/problems/sort-list/) - `sort_list.py`
@@ -119,6 +120,7 @@
 - Q269 DFS solution
 
 Consider Morris traversal of binary trees
+More on postorder iterative solution
 
 #### Sliding window
 - Q76

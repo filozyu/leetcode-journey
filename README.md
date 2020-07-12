@@ -37,6 +37,7 @@
 - [Q86](https://leetcode.com/problems/partition-list/) - `partition_list.py`
 - [Q88](https://leetcode.com/problems/merge-sorted-array/) - `merge_two_sorted_array.py`
 - [Q92](https://leetcode.com/problems/reverse-linked-list-ii/) - `reverse_linked_list_ii.py`
+- [Q94](https://leetcode.com/problems/binary-tree-inorder-traversal/) - `binary_tree_inorder.py`
 - [Q103](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - `binary_tree_zigzag_level_traverse.py`
 - [Q104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - `max_depth_binary_tree.py`
 - [Q121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - `max_profit.py`
@@ -47,6 +48,7 @@
 - [Q138](https://leetcode.com/problems/copy-list-with-random-pointer/) - `copy_random_list.py`
 - [Q139](https://leetcode.com/problems/word-break/) - `word_break.py`
 - [Q143](https://leetcode.com/problems/reorder-list/) - `reorder_list.py`
+- [Q144](https://leetcode.com/problems/binary-tree-preorder-traversal/) - `binary_tree_preorder.py`
 - [Q146](https://leetcode.com/problems/lru-cache/) - `least_recent_use_cache.py`
 - [Q147](https://leetcode.com/problems/insertion-sort-list/) - `insertion_sort_list.py`
 - [Q148](https://leetcode.com/problems/sort-list/) - `sort_list.py`
@@ -115,6 +117,8 @@
 - Q819 clean-up and study re/string
 - Q973 divide and conquer
 - Q269 DFS solution
+
+Consider Morris traversal of binary trees
 
 #### Sliding window
 - Q76

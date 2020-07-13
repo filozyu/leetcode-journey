@@ -108,9 +108,12 @@ def zigzagLevelOrder_deque(root):
 def zigzagLevelOrder_dfs(root):
     """
     Stack with odd and even layers, use deque to store the values in each layer
+    NOTE: we can also replace stack here with a queue, but the level % 2 condition should be the opposite
+
     Time: O(N) N is the number of nodes in the tree
     Space: O(logN) the stack will only store nodes that is at most the height of the tree
     """
+    # or que = deque()
     stack = []
     if not root:
         return []
@@ -119,6 +122,7 @@ def zigzagLevelOrder_dfs(root):
     # res is for the final answer
     res = []
     while stack:
+        # or curr_node, level = que.popleft()
         curr_node, level = stack.pop()
 
         if curr_node.left:
@@ -131,6 +135,7 @@ def zigzagLevelOrder_dfs(root):
             res.append(deque([curr_node.val]))
         # else the deque for the level already exists, append (left or right) to it
         else:
+            # if we are using queue instead of stack here, swap the if and else conditions
             if level % 2 == 0:
                 res[level - 1].append(curr_node.val)
             else:

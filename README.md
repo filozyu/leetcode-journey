@@ -96,6 +96,7 @@
 - [Q953](https://leetcode.com/problems/verifying-an-alien-dictionary/) - `verify_alien_dictionary.py`
 - [Q957](https://leetcode.com/problems/prison-cells-after-n-days/) - `prison_cell_n_days.py`
 - [Q973](https://leetcode.com/problems/k-closest-points-to-origin/) - `k_closest_origin.py`
+- [Q974](https://leetcode.com/problems/subarray-sums-divisible-by-k/) - `subarray_sum_divisible_k.py`
 - [Q994](https://leetcode.com/problems/rotting-oranges/) - `rotten_orange.py`
 - [Q1046](https://leetcode.com/problems/last-stone-weight/) - `last_stone_weight.py`
 - [Q1192](https://leetcode.com/problems/critical-connections-in-a-network/) - `critical_connection.py`

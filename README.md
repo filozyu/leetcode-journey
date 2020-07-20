@@ -31,6 +31,7 @@
 - [Q61](https://leetcode.com/problems/rotate-list/) - `rotate_list.py`
 - [Q71](https://leetcode.com/problems/simplify-path/) - `simplify_path.py`
 - [Q77](https://leetcode.com/problems/combinations/) - `combinations.py`
+- [Q78](https://leetcode.com/problems/subsets/) - `subsets.py`
 - [Q79](https://leetcode.com/problems/word-search/) - `word_search.py`
 - [Q80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - `remove_duplicates_ii.py`
 - [Q82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) - `remove_duplicate_sorted_list_ii.py`

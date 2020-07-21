@@ -24,6 +24,7 @@
 - [Q33](https://leetcode.com/problems/search-in-rotated-sorted-array/) - `search_rotated_sorted_array.py`
 - [Q34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - `find_first_last_position_sorted_array.py`
 - [Q39](https://leetcode.com/problems/combination-sum/) - `combination_sum.py`
+- [Q40](https://leetcode.com/problems/combination-sum-ii/) - `combination_sum_ii.py`
 - [Q42](https://leetcode.com/problems/trapping-rain-water/) - `trap_rain_water.py`
 - [Q46](https://leetcode.com/problems/permutations/) - `permutations.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
@@ -129,6 +130,7 @@
 - Q269 DFS solution
 - Q341 other solutions, esp. iterator
 - Q126 time and space complexity
+- Q40 DP solution and Q322, Q518
 
 Consider Morris traversal of binary trees
 More on postorder iterative solution

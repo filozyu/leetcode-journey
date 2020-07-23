@@ -27,6 +27,7 @@
 - [Q40](https://leetcode.com/problems/combination-sum-ii/) - `combination_sum_ii.py`
 - [Q42](https://leetcode.com/problems/trapping-rain-water/) - `trap_rain_water.py`
 - [Q46](https://leetcode.com/problems/permutations/) - `permutations.py`
+- [Q47](https://leetcode.com/problems/permutations-ii/) - `permutations_ii.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q54](https://leetcode.com/problems/spiral-matrix/) - `spiral_matrix.py`
@@ -134,6 +135,7 @@
 - Q341 other solutions, esp. iterator
 - Q126 time and space complexity
 - Q40 DP solution and Q322, Q518
+- Q47 add in-place permutation solution
 
 Consider Morris traversal of binary trees
 More on postorder iterative solution

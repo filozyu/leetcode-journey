@@ -29,6 +29,7 @@
 - [Q46](https://leetcode.com/problems/permutations/) - `permutations.py`
 - [Q47](https://leetcode.com/problems/permutations-ii/) - `permutations_ii.py`
 - [Q49](https://leetcode.com/problems/group-anagrams/) - `group_anagrams.py`
+- [Q51](https://leetcode.com/problems/n-queens/) - `n_queens.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q54](https://leetcode.com/problems/spiral-matrix/) - `spiral_matrix.py`
 - [Q61](https://leetcode.com/problems/rotate-list/) - `rotate_list.py`
@@ -120,7 +121,6 @@
 - Q22 (backtracking, DP and BFS)
 - Q34 (O(logn) sol)
 - Q39 (faster backtracking)
-- Q51 (N-Queens)
 - Q56 (merge intervals)
 - Q88 (merge sorted arrays)
 - Q127 (Bi-directional BFS)

@@ -23,6 +23,7 @@
 - [Q32](https://leetcode.com/problems/longest-valid-parentheses/) - `longest_valid_parentheses.py`
 - [Q33](https://leetcode.com/problems/search-in-rotated-sorted-array/) - `search_rotated_sorted_array.py`
 - [Q34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - `find_first_last_position_sorted_array.py`
+- [Q37](https://leetcode.com/problems/sudoku-solver/) - `sudoku_solver.py`
 - [Q39](https://leetcode.com/problems/combination-sum/) - `combination_sum.py`
 - [Q40](https://leetcode.com/problems/combination-sum-ii/) - `combination_sum_ii.py`
 - [Q42](https://leetcode.com/problems/trapping-rain-water/) - `trap_rain_water.py`

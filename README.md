@@ -94,6 +94,7 @@
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
 - [Q328](https://leetcode.com/problems/odd-even-linked-list/) - `odd_even_linked_list.py`
 - [Q341](https://leetcode.com/problems/flatten-nested-list-iterator/) - `flatten_nested_list_iterator.py`
+- [Q343](https://leetcode.com/problems/integer-break/) - `integer_break.py`
 - [Q344](https://leetcode.com/problems/reverse-string/) - `reverse_str.py`
 - [Q345](https://leetcode.com/problems/reverse-vowels-of-a-string/) - `reverse_vowels.py`
 - [Q349](https://leetcode.com/problems/intersection-of-two-arrays/) - `intersection_two_array.py`

@@ -34,6 +34,7 @@
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q54](https://leetcode.com/problems/spiral-matrix/) - `spiral_matrix.py`
 - [Q61](https://leetcode.com/problems/rotate-list/) - `rotate_list.py`
+- [Q64](https://leetcode.com/problems/minimum-path-sum/) - `min_path_sum.py`
 - [Q70](https://leetcode.com/problems/climbing-stairs/) - `fibonacci.py`
 - [Q71](https://leetcode.com/problems/simplify-path/) - `simplify_path.py`
 - [Q77](https://leetcode.com/problems/combinations/) - `combinations.py`

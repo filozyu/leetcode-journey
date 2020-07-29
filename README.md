@@ -106,6 +106,7 @@
 - [Q345](https://leetcode.com/problems/reverse-vowels-of-a-string/) - `reverse_vowels.py`
 - [Q349](https://leetcode.com/problems/intersection-of-two-arrays/) - `intersection_two_array.py`
 - [Q350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) - `intersection_two_array_ii.py`
+- [Q376](https://leetcode.com/problems/wiggle-subsequence/) - `wiggle_subsequence.py`
 - [Q380](https://leetcode.com/problems/insert-delete-getrandom-o1/) - `insert_delete_random.py`
 - [Q412](https://leetcode.com/problems/fizz-buzz/) - `fizz_buzz.py`
 - [Q417](https://leetcode.com/problems/pacific-atlantic-water-flow/) - `pacific_atlantic_water_flow.py`

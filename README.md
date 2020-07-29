@@ -96,6 +96,7 @@
 - [Q273](https://leetcode.com/problems/integer-to-english-words/) - `integer_to_english_words.py`
 - [Q279](https://leetcode.com/problems/perfect-squares/) - `perfect_squares.py`
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
+- [Q300](https://leetcode.com/problems/longest-increasing-subsequence/) - `longest_increasing_subsequence.py`
 - [Q309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) - `max_profit_cooldown.py`
 - [Q328](https://leetcode.com/problems/odd-even-linked-list/) - `odd_even_linked_list.py`
 - [Q337](https://leetcode.com/problems/house-robber-iii/) - `house_robber_iii.py`
@@ -151,6 +152,7 @@
 - Q40 DP solution and Q322, Q518
 - Q47 add in-place permutation solution
 - Q417 alternative solution
+- Q300 O(nlogn) solution
 
 Consider Morris traversal of binary trees
 More on postorder iterative solution

@@ -108,6 +108,7 @@
 - [Q350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) - `intersection_two_array_ii.py`
 - [Q376](https://leetcode.com/problems/wiggle-subsequence/) - `wiggle_subsequence.py`
 - [Q380](https://leetcode.com/problems/insert-delete-getrandom-o1/) - `insert_delete_random.py`
+- [Q392](https://leetcode.com/problems/is-subsequence/) - `is_subsequence.py`
 - [Q412](https://leetcode.com/problems/fizz-buzz/) - `fizz_buzz.py`
 - [Q417](https://leetcode.com/problems/pacific-atlantic-water-flow/) - `pacific_atlantic_water_flow.py`
 - [Q435](https://leetcode.com/problems/non-overlapping-intervals/) - `non_overlapping_intervals.py`
@@ -157,6 +158,7 @@
 - Q417 alternative solution
 - Q300 O(nlogn) solution
 - Q451 consider DP
+- Q392 more solutions
 
 Consider Morris traversal of binary trees
 More on postorder iterative solution

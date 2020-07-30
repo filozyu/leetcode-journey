@@ -98,6 +98,7 @@
 - [Q283](https://leetcode.com/problems/move-zeroes/) - `move_zeroes.py`
 - [Q300](https://leetcode.com/problems/longest-increasing-subsequence/) - `longest_increasing_subsequence.py`
 - [Q309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) - `max_profit_cooldown.py`
+- [Q322](https://leetcode.com/problems/coin-change/) - `coin_change.py`
 - [Q328](https://leetcode.com/problems/odd-even-linked-list/) - `odd_even_linked_list.py`
 - [Q337](https://leetcode.com/problems/house-robber-iii/) - `house_robber_iii.py`
 - [Q341](https://leetcode.com/problems/flatten-nested-list-iterator/) - `flatten_nested_list_iterator.py`
@@ -153,7 +154,7 @@
 - Q269 DFS solution
 - Q341 other solutions, esp. iterator
 - Q126 time and space complexity
-- Q40 DP solution and Q322, Q518
+- Q40 DP solution and Q518
 - Q47 add in-place permutation solution
 - Q417 alternative solution
 - Q300 O(nlogn) solution

@@ -111,6 +111,7 @@
 - [Q380](https://leetcode.com/problems/insert-delete-getrandom-o1/) - `insert_delete_random.py`
 - [Q392](https://leetcode.com/problems/is-subsequence/) - `is_subsequence.py`
 - [Q412](https://leetcode.com/problems/fizz-buzz/) - `fizz_buzz.py`
+- [Q416](https://leetcode.com/problems/partition-equal-subset-sum/) - `partition_equal_subset_sum.py`
 - [Q417](https://leetcode.com/problems/pacific-atlantic-water-flow/) - `pacific_atlantic_water_flow.py`
 - [Q435](https://leetcode.com/problems/non-overlapping-intervals/) - `non_overlapping_intervals.py`
 - [Q445](https://leetcode.com/problems/add-two-numbers-ii/) - `add_two_numbers_ii.py`

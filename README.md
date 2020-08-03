@@ -125,6 +125,7 @@
 - [Q678](https://leetcode.com/problems/valid-parenthesis-string/) - `valid_parentheses_str.py`
 - [Q692](https://leetcode.com/problems/top-k-frequent-words/) - `top_k_frequent_words.py`
 - [Q694](https://leetcode.com/problems/number-of-distinct-islands/) - `num_distinct_island.py`
+- [Q763](https://leetcode.com/problems/partition-labels/) - `partition_labels.py`
 - [Q819](https://leetcode.com/problems/most-common-word/) - `most_common_word.py`
 - [Q844](https://leetcode.com/problems/backspace-string-compare/) - `backspace_string_compare.py`
 - [Q863](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) - `node_distance_k_binary_tree.py`

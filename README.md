@@ -33,6 +33,7 @@
 - [Q51](https://leetcode.com/problems/n-queens/) - `n_queens.py`
 - [Q53](https://leetcode.com/problems/maximum-subarray/) - `max_subarray.py`
 - [Q54](https://leetcode.com/problems/spiral-matrix/) - `spiral_matrix.py`
+- [Q56](https://leetcode.com/problems/merge-intervals/) - `merge_intervals.py`
 - [Q61](https://leetcode.com/problems/rotate-list/) - `rotate_list.py`
 - [Q63](https://leetcode.com/problems/unique-paths-ii/) - `unique_paths_ii.py`
 - [Q64](https://leetcode.com/problems/minimum-path-sum/) - `min_path_sum.py`
